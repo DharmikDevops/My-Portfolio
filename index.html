@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Dharmik Dolia</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <!-- =============== Header Section =============== -->
+   <header class="header">
+
+    <!-- Logo -->
+     <div class="logo">DharmikDolia</div>
+     
+     <!-- Desktop Navigation -->
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certificates</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      
+      <!-- Toggle & Hamburger -->
+       <div class="controls">
+        
+        <!-- Theme Toggle Switch -->
+         <label class="theme-toggle">
+          <input type="checkbox" />
+          <span class="slider"></span>
+        </label>
+        
+        <!-- Hamburger + Mobile Menu -->
+         <div class="mobile-container">
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          
+          <div class="mobile-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#certifications">Certificates</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+<!-- =============== Home Section =============== -->
+ <section id="home" class="home-section">
+  <div class="home-container">
+    
+    <!-- Left Column: Profile Image + Social Icons -->
+     <div class="home-left">
+      <img src="My_Images/Dharmik-Dolia-Profile-Image.jpg" alt="Profile Image" class="profile-img"/>
+      
+      <div class="social-icons">
+        <a href="https://github.com/DharmikDevops" target="_blank">
+          <img src="Icons/Github-icon.svg" alt="GitHub"/>
+        </a>
+        <a href="https://www.linkedin.com/in/dharmik1904" target="_blank">
+          <img src="Icons/LinkedIn-icon.svg" alt="LinkedIn"/>
+        </a>
+        <a href="https://x.com" target="_blank">
+          <img src="Icons/Twitter-icon.svg" alt="Twitter"/>
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="Icons/Instagram-icon.svg" alt="Instagram"/>
+        </a>
+      </div>
+
+    </div>
+    
+    <!-- Right Column: Hero Text -->
+     <div class="home-right">
+      <h1>Hi, I'm <span class="highlight">Dharmik Dolia</span></h1>
+      <p>
+        A DevOps Engineer who loves building pipelines and crafting code!  
+        I automate CI/CD with Jenkins, Ansible, Docker & Git — and I’m diving deep into Full-Stack Web Development with React, Next.js, Node.js, Express, and MongoDB.
+        Always curious, always learning — let’s build something awesome!
+      </p>
+
+      <a href="" target="_blank" class="resume-btn"> Download Resume </a>
+     </div>
+    </div>
+  </section>
+
+<!-- =============== About Section =============== -->
+ <section id="about" class="about-section">
+  <div class="about-container">
+    
+    <!-- Left Content -->
+     <div class="about-text">
+      <h2>About Me</h2>
+      <div class="underline"></div>
+
+      <p>
+        I’m a <span class="highlight">DevOps Engineer</span> with <strong>1.3+ years of experience</strong> in automating CI/CD pipelines using 
+        <strong>Jenkins</strong>, <strong>Ansible</strong>, <strong>Docker</strong>, <strong>Git</strong>, and <strong>Bash scripting</strong>. 
+        I specialize in improving deployment efficiency, reducing manual errors, and building reliable pipelines.
+      </p>
+
+      <input type="checkbox" id="read-more-toggle" class="read-more-toggle" hidden>
+      <div class="read-more-content">
+        <p>
+          I also have hands-on experience with <strong>SonarQube</strong> for code quality analysis and <strong>Nexus</strong> for artifact management.
+          I'm currently learning <strong>Full-Stack Development</strong> with React, Node.js, Express.js & MongoDB.
+        </p>
+        <p>
+          Eager to explore new tools and technologies, I aim to bridge the gap between development and operations with reliable DevOps practices.
+        </p>
+      </div>
+
+      <label for="read-more-toggle" class="read-more-button">Read More</label>
+    </div>
+    
+    <!-- Right Image -->
+    <div class="about-image">
+      <img src="My_Images/Dharmik-Dolia-About-Image.jpg" alt="About Dharmik">
+    </div>
+
+  </div>
+</section>
+
+<!-- =============== Skills Section =============== -->
+ <section id="skills" class="skills-section">
+  <div class="skills-container">
+    
+    <!-- Section Heading -->
+     <div class="section-heading">
+      <h2>My Skills</h2>
+      <div class="underline"></div>
+    </div>
+    
+    <!-- Grid: Description and Skills -->
+     <div class="skills-grid">
+      
+      <!-- Description Column -->
+       <div class="skills-description">
+        <p>
+          Here’s a quick glance at the technologies and tools I use to build, automate, and optimize software systems.
+        </p>
+        <p>
+          From DevOps pipelines to modern web development — these are the skills I apply every day to deliver reliable and scalable solutions.
+        </p>
+      </div>
+      
+      <!-- Skills Column 1 -->
+       <div class="skills-column">
+        <div class="skill">
+          <div class="skill-header">
+            <span>Jenkins (CI/CD Pipelines)</span>
+            <span>90%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 90%;"></div>
+          </div>
+        </div>
+        
+        <div class="skill">
+          <div class="skill-header">
+            <span>Ansible (Automation)</span>
+            <span>85%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 85%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-header">
+            <span>Docker (Containers & Compose)</span>
+            <span>80%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 80%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-header">
+            <span>Git (Version Control)</span>
+            <span>85%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 85%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-header">
+            <span>Bash</span>
+            <span>75%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 75%;"></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Skills Column 2 -->
+       <div class="skills-column">
+        <div class="skill">
+          <div class="skill-header">
+            <span>SQL</span>
+            <span>70%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 70%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-header">
+            <span>SonarQube (Code Quality)</span>
+            <span>80%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 80%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-header">
+            <span>HTML5</span>
+            <span>85%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 85%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-header">
+            <span>CSS3</span>
+            <span>80%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 80%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-header">
+            <span>Tailwind CSS</span>
+            <span>75%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="width: 75%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== Certifications Section =============== -->
+ <section id="certifications" class="certifications-section">
+  <div class="certifications-container">
+    
+    <!-- Section Heading -->
+     <div class="section-heading">
+      <h2>Certifications</h2>
+      <div class="underline"></div>
+    </div>
+    
+    <!-- Certification Cards -->
+     <div class="certifications-grid">
+      
+      <!-- Card 1 -->
+       <div class="certification-card">
+        <div class="cert-content">
+          <h3>DevOps CI/CD with Jenkins, Maven, Gradle, SonarQube, Docker</h3>
+          <p>Udemy | Issued: 2024</p>
+        </div>
+        <a href="https://www.udemy.com/certificate/UC-93c307f1-c751-48b4-8faf-3c28cf449613/" target="_blank" class="cert-btn">View Certificate</a>
+      </div>
+      
+      <!-- Card 2 -->
+       <div class="certification-card">
+        <div class="cert-content">
+          <h3>Full Stack Development: Let's begin</h3>
+          <p>Internshala | Issued: 2025</p>
+        </div>
+        <a href="https://trainings.internshala.com/s/v/3657247/fa347876" target="_blank" class="cert-btn">View Certificate</a>
+      </div>
+      
+      <!-- Card 3 -->
+       <div class="certification-card">
+        <div class="cert-content">
+          <h3>Designing Web Pages Using HTML and CSS</h3>
+          <p>Internshala | Issued: 2025</p>
+        </div>
+        <a href="https://trainings.internshala.com/s/v/3706915/2d1b6bf4" target="_blank" class="cert-btn">View Certificate</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== Projects Section =============== -->
+ <section id="projects" class="projects-section">
+  <div class="max-width-wrapper">
+    
+    <!-- Heading -->
+     <div class="section-heading">
+      <h2>My Projects</h2>
+      <div class="underline"></div>
+    </div>
+    
+    <!-- Project Cards Grid -->
+     <div class="projects-grid">
+      
+      <!-- Project Card 1 -->
+       <div class="project-card">
+        <img src="Projects_bg/CI-CD-Automation-bg.png" alt="CI/CD Pipeline">
+        <div class="project-content">
+          <h3>CI/CD Pipeline Automation</h3>
+          <p>Automated CI/CD pipeline using Jenkins, Ansible, Docker, Git, SonarQube, and Nexus.</p>
+          <a href="https://github.com/DharmikDevops/Automated-CI-CD-pipeline-with-jenkins-and-ansible" target="_blank">View Project</a>
+        </div>
+      </div>
+      
+      <!-- Project Card 2 -->
+       <div class="project-card">
+        <img src="Projects_bg/Automated-Deployment-with-Docker-and-Jenkins-bg.jpg" alt="Docker Deployment">
+        <div class="project-content">
+          <h3>Docker & Jenkins Deployment</h3>
+          <p>Containerized Node.js app with Docker, deployed via Jenkins CI/CD pipeline.</p>
+          <a href="https://github.com/DharmikDevops/node-docker-app-ci-cd" target="_blank">View Project</a>
+        </div>
+      </div>
+      
+      <!-- Project Card 3 -->
+       <div class="project-card">
+        <img src="Projects_bg/Multi-Stage-Docker-bg.jpg" alt="Multi-Stage Docker">
+        <div class="project-content">
+          <h3>Multi-Stage Docker Project</h3>
+          <p>Optimized Node.js image using multi-stage Docker builds for production.</p>
+          <a href="https://github.com/DharmikDevops/Multi-Stage-Docker-Project" target="_blank">View Project</a>
+        </div>
+      </div>
+      
+      <!-- Project Card 4 -->
+       <div class="project-card">
+        <img src="Projects_bg/Deployment-with-Docker-Compose-bg.jpeg" alt="Docker Compose Project">
+        <div class="project-content">
+          <h3>Deployment with Docker Compose</h3>
+          <p>Deployed a full-stack app with Flask, MySQL, and Nginx using Docker Compose.</p>
+          <a href="https://github.com/DharmikDevops/docker-compose-backend" target="_blank">View Project</a>
+        </div>
+      </div>
+      
+      <!-- Project Card 5 -->
+       <div class="project-card">
+        <img src="Projects_bg/Signin-Signup-bg.png" alt="Signup Form">
+        <div class="project-content">
+          <h3>Sign-in & Sign-up Form</h3>
+          <p>Multi-step responsive form using HTML, CSS & JS with validation and navigation.</p>
+          <a href="https://github.com/DharmikDevops/Signup-Form-Project" target="_blank">View Project</a>
+        </div>
+      </div>
+      
+      <!-- Project Card 6 -->
+       <div class="project-card">
+        <img src="Projects_bg/My-Portfolio-bg.png" alt="Portfolio Website">
+        <div class="project-content">
+          <h3>My Portfolio</h3>
+          <p>Responsive personal portfolio built with HTML & TailwindCSS (now converted).</p>
+          <a href="https://github.com/DharmikDevops/My-Portfolio" target="_blank">View Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== Contact Section =============== -->
+ <section id="contact" class="contact-section">
+  <div class="max-width-container">
+    
+    <!-- Heading -->
+     <div class="section-heading">
+      <h2>Contact Me</h2>
+      <div class="underline"></div>
+    </div>
+    
+    <!-- Grid Layout -->
+     <div class="contact-grid">
+      
+      <!-- Left Message -->
+       <div class="contact-info">
+        <p> Have a project idea, collaboration request, or just want to say hello? <br/><br/>
+          <strong>Feel free to reach out!</strong> I’m always open to meaningful conversations and opportunities.
+        </p>
+      </div>
+      
+      <!-- Right Contact Form -->
+       <form class="contact-form" action="#" method="POST">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- =============== Footer Section =============== -->
+ <footer>
+  <div class="footer-container">
+    <div class="footer-logo">DharmikDolia</div>
+    
+    <div class="footer-buttons">
+      <a href="tel:">📞 Call</a>
+      <a href="mailto:">✉ Email</a>
+    </div>
+
+    <div class="footer-copy">
+      &copy; 2025 Dharmik Dolia. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
