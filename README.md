@@ -108,8 +108,7 @@ My Portfolio/                                    <br>
 
 ## 🙋‍♂ Author
 
-*Dharmik Dolia*  
-[GitHub](https://github.com/DharmikDevops) | [LinkedIn](https://www.linkedin.com/in/dharmik1904)
+*Dharmik Dolia* 
 
 > “Always curious, always building.”
 
